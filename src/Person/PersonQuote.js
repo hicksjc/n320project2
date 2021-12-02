@@ -10,7 +10,8 @@ export default function PersonQuote() {
   const [Behaviors, setBehaviors] = useState([]);
   const [showSecondTypes, setShowSecondTypes] = useState(false);
   const [InspirationalDialogue, setShowInspDialogue] = useState([]);
-  const [currentText, setCurText] = useState("");
+  //const [currentText, setCurText] = useState("");
+  const [selectedPersonalityType, setSelectedPersonType] = useState("");
   //const [showDialogue, setShowDialogue] = useState(false);
   useEffect(() => {
     fetch("data/data.json")
@@ -39,12 +40,13 @@ export default function PersonQuote() {
     <div>
       <PersonalityTypes
         Manipulative={PersonalityType[0]}
-        // Directive={PersonalityType[1]}
-        // Mean={PersonalityType[2]}
-        // Optimistic={PersonalityType[3]}
-        // Pessimistic={PersonalityType[4]}
-        onSecondClicked={() => {
+        Directive={PersonalityType[1]}
+        Mean={PersonalityType[2]}
+        Optimistic={PersonalityType[3]}
+        Pessimistic={PersonalityType[4]}
+        onSecondClicked={(PType) => {
           console.log();
+          setSelectedPersonType(PType);
           showSecondClicked();
         }}
       />
@@ -71,5 +73,7 @@ export default function PersonQuote() {
   function showSecondClicked() {
     setShowSecondTypes(true);
   }
-  function showInspDialogue() {}
+  function showInspDialogue() {
+
+  }
 }

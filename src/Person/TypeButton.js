@@ -10,11 +10,42 @@ export default function PersonalityTypes({
 }) {
   return (
     <div>
-      <button id="Manipulative" onClick={()=>{onSecondClicked()}}>{Manipulative}</button>
-      <button onClick={()=>{onSecondClicked()}}>{Directive}</button>
-      <button onClick={()=>{onSecondClicked()}}>{Mean}</button>
-      <button onClick={()=>{onSecondClicked()}}>{Optimistic}</button>
-      <button onClick={()=>{onSecondClicked()}}>{Pessimistic}</button>
+      <button
+        id="Manipulative"
+        onClick={() => {
+          onSecondClicked(0);
+        }}
+      >
+        {Manipulative}
+      </button>
+      <button
+        onClick={() => {
+          onSecondClicked(1);
+        }}
+      >
+        {Directive}
+      </button>
+      <button
+        onClick={() => {
+          onSecondClicked(2);
+        }}
+      >
+        {Mean}
+      </button>
+      <button
+        onClick={() => {
+          onSecondClicked(3);
+        }}
+      >
+        {Optimistic}
+      </button>
+      <button
+        onClick={() => {
+          onSecondClicked(4);
+        }}
+      >
+        {Pessimistic}
+      </button>
     </div>
   );
 }
