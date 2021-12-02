@@ -1,22 +1,22 @@
 {
   "Personalities": [
     {
-      "Personality-Type": [
+      "PersonalityType": [
         "Manipulative",
         "Directive",
         "Mean",
         "Optimistic",
         "Pessimistic"
       ],
-      "Personality-Behaviors": ["Inspirational", "Goal-Oriented"],
-      "Inspirational-Dialogue": [
+      "PersonalityBehaviors": ["Inspirational", "Goal-Oriented"],
+      "InspirationalDialogue": [
         "Those who manipulate this unseen mechanism of society constitute an invisible government which is the true ruling power of our country",
         "The only true virtues are courage and discipline, and channeled properly they can overcome any obstacle. Therein lies true strength; force withheld, a promise made.",
         "Nobody cares, work harder.",
         "Life can be a bumpy road, but at least it's leading somewhere.",
         "The nice part about being a pessimist is that you are constantly being either proven right or pleasantly surprised"
       ],
-      "Goal-Oriented-Dialogue": [
+      "GoalOrientedDialogue": [
         "This needs to be done tomorrow, unfortunately I have a meeting to go to, can you get it done?",
         "I need this done yesterday",
         "Do this and do it now!",
