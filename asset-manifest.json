@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Dialogue-application/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/Dialogue-application/static/js/main.83c47dff.chunk.js",
+    "main.js.map": "/Dialogue-application/static/js/main.83c47dff.chunk.js.map",
+    "runtime-main.js": "/Dialogue-application/static/js/runtime-main.331b9feb.js",
+    "runtime-main.js.map": "/Dialogue-application/static/js/runtime-main.331b9feb.js.map",
+    "static/js/2.c789a1aa.chunk.js": "/Dialogue-application/static/js/2.c789a1aa.chunk.js",
+    "static/js/2.c789a1aa.chunk.js.map": "/Dialogue-application/static/js/2.c789a1aa.chunk.js.map",
+    "static/js/3.236841bb.chunk.js": "/Dialogue-application/static/js/3.236841bb.chunk.js",
+    "static/js/3.236841bb.chunk.js.map": "/Dialogue-application/static/js/3.236841bb.chunk.js.map",
+    "index.html": "/Dialogue-application/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/Dialogue-application/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.c789a1aa.chunk.js.LICENSE.txt": "/Dialogue-application/static/js/2.c789a1aa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.331b9feb.js",
+    "static/js/2.c789a1aa.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.83c47dff.chunk.js"
+  ]
+}
