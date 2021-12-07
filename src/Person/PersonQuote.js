@@ -12,6 +12,7 @@ export default function PersonQuote() {
   const [InspirationalDialogue, setShowInspDialogue] = useState([]);
   //const [currentText, setCurText] = useState("");
   const [selectedPersonalityType, setSelectedPersonType] = useState("");
+  const [showThirdTypes, setShowThirdTypes] = useState(false);
   //const [showDialogue, setShowDialogue] = useState(false);
   useEffect(() => {
     fetch("data/data.json")
@@ -45,7 +46,7 @@ export default function PersonQuote() {
         Optimistic={PersonalityType[3]}
         Pessimistic={PersonalityType[4]}
         onSecondClicked={(PType) => {
-          console.log();
+          console.log(PType);
           setSelectedPersonType(PType);
           showSecondClicked();
         }}
@@ -54,26 +55,29 @@ export default function PersonQuote() {
         <PersonalityBehaviors
           Inspirational={Behaviors[0]}
           GoalOriented={Behaviors[1]}
-          onClick={(Inspirational) => {
-            showInspDialogue();
+          onThirdClicked={(PDialogue) => {
+            console.log(PDialogue);
+            setShowThirdTypes(PDialogue);
+            showInspirationalDialogue();
           }}
         />
       )}
       {InspDialogue && (
         <InspDialogue
           InspManip={InspirationalDialogue[0]}
-          // InspDirect={InspirationalDialogue[1]}
-          // InspMean={InspirationalDialogue[2]}
-          // InspOpt={InspirationalDialogue[3]}
-          // InspPess={InspirationalDialogue[4]}
+          InspDirect={InspirationalDialogue[1]}
+          InspMean={InspirationalDialogue[2]}
+          InspOpt={InspirationalDialogue[3]}
+          InspPess={InspirationalDialogue[4]}
         />
       )}
     </div>
   );
+
   function showSecondClicked() {
     setShowSecondTypes(true);
   }
-  function showInspDialogue() {
-
+  function showInspirationalDialogue() {
+    setShowThirdTypes(true);
   }
 }
