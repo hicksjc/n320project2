@@ -8,6 +8,7 @@ export default function GoalDialogue({
     GoalPess
 }) {
     return (
+        // Create the dialogue for pressing the goal oriented button
         <div>
             <h2 id="GoalManip">{GoalManip}</h2>
             <h2 id="GoalDirect">{GoalDirect}</h2>

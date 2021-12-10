@@ -8,6 +8,7 @@ export default function InspDialogue({
   InspPess
 }) {
   return (
+    // Inspirational Dialogue stuff
     <div>
       <h2 id="InspManip">{InspManip}</h2>
       <h2 id="InspDirect">{InspDirect}</h2>

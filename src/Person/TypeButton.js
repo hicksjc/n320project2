@@ -9,6 +9,7 @@ export default function PersonalityTypes({
   onSecondClicked
 }) {
   return (
+    // The initial 5 buttons for personality types, this is what a user selects that determins the starting point of the later used array
     <div>
       <button
         id="Manipulative"

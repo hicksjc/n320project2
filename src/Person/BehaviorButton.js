@@ -7,6 +7,7 @@ export default function PersonalityBehaviors({
   onThirdClicked
 }) {
   return (
+    // Two buttons, Inspirational and Goal Oriented. These buttons are essential for selecting the set of dialogue arrays that displays
     <div>
       <button
         onClick={() => {

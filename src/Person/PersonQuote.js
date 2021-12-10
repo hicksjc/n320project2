@@ -5,6 +5,7 @@ import PersonalityTypes from "./TypeButton.js";
 import InspDialogue from "./InspDialogue.js";
 
 export default function PersonQuote() {
+  
   const [Personalities, setPersonalities] = useState([]);
   const [PersonalityType, setPersonalityType] = useState([]);
   const [Behaviors, setBehaviors] = useState([]);
